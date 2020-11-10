@@ -1,0 +1,16 @@
+{
+  "name": "Discovery",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:julianotavares/nlw3-happy-discovery.git",
+  "author": "Juliano Tavares <juliano.tavaress@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.6"
+  }
+}
