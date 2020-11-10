@@ -77,7 +77,7 @@ a.create-orphanage:hover{
   width: 4rem;
   height: 4rem;
   background: #15c3d6;
-  box-shadow: 17.2868px 27.65px 41,48px rgba(23, 142, 166, 0.15;
+  box-shadow: 17.2868px 27.65px 41,48px rgba(23, 142, 166, 0.15);
   border-radius: 12px;
   
   display: flex;
@@ -86,6 +86,7 @@ a.create-orphanage:hover{
 
   transition: background-color .2s;
 }
+
 .leaflet-popup-content a:hover {
   background: #17d6eb;
 
