@@ -33,6 +33,8 @@ yarn start
 - [Node.js](https://nodejs.org/en/)
 - [Express](https://expressjs.com/pt-br/)
 - [Prettier](https://prettier.io/)
+- [Handlebars](https://handlebarsjs.com/)
+- [SqLite](https://www.sqlite.org/)
 
 ## Contributing
 
