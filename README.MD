@@ -10,6 +10,10 @@ Adicionei a função de mudar para o tema dark com javascript, também configure
 ![](assets/home.png)
 
 ## Instalação
+Clone esse repositório na sua máquina:
+```sh
+git clone https://github.com/julianotavares/nlw3-happy-discovery
+```
 
 Após clonar o diretório, entre na raíz do mesmo e execute o comando para instalar as dependências.
 
