@@ -3,6 +3,10 @@
 
 Durante a semana, aprendemos a desenvolver toda a aplicação com ênfase nas tecnologias HTML, CSS e JavaScript, utilizamos uma "fakedabatabse" para cadastrar dados de Casas de apoio e para realizar as consultas pelo frontend do lado do cliente.
 
+## Novas Features
+
+Adicionei a função de mudar para o tema dark com javascript, também configurei para guardar a opção do usuário no localstorage e sempre que o usuário entrar no site, a sua opção de tema estará salva.
+
 ![](assets/home.png)
 
 ## Instalação
