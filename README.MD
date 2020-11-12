@@ -3,7 +3,7 @@
 
 Durante a semana, aprendemos a desenvolver toda a aplicação com ênfase nas tecnologias HTML, CSS e JavaScript, utilizamos uma "fakedabatabse" para cadastrar dados de Casas de apoio e para realizar as consultas pelo frontend do lado do cliente.
 
-![](./assets/home.png)
+![](assets/home.png)
 
 ## Instalação
 
