@@ -2,8 +2,8 @@
 form {
   width: 70rem;
   margin: 6.4rem auto;
-  background: white;
-  border: 1px solid #D3E2E5;
+  background: var(--form-bg);
+  border: 1px solid var(--form-border);
 
   border-radius: 2rem;
 
@@ -56,11 +56,11 @@ fieldset legend {
 .input-block textarea {
   width: 100%;
 
-  background: #f5f8fa;
-  border: 1px solid #d3e2e5;
+  background: var(--input-bg);
+  border: 1px solid var(--form-border);
   border-radius: 2rem;
 
-  color: #5c8599;
+  color: var(--form-text);
 }
 
 .input-block input {
@@ -86,7 +86,7 @@ fieldset legend {
 .input-block.images button {
   border: 1px dashed #96d2f0;
   width: 100%;
-  background: #F5f8fa;
+  background: var(--button-bg);
   height: 6.4rem;
   padding: 0 1.6rem;
   margin-top: 2.4rem;

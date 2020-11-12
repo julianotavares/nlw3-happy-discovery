@@ -3,7 +3,7 @@ aside.sidebar {
   position: fixed;
   height: 100%;
   padding: 3.2rem 2.4rem;
-  background: #15c3d6;
+  background: var(--sidebar);
 
   display: flex;
   flex-direction: column;

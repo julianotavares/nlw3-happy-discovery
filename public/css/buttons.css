@@ -18,6 +18,8 @@
   justify-content: center;
 
   transition: background-color .2s;
+
+  text-decoration: none;
 }
 
 .primary-button:hover {
@@ -35,7 +37,7 @@
 
 .button-select button {
   height: 6.4rem;
-  background: #f5f8fa;
+  background: var(--button-select);
   border: 1px solid #d3e2e5;
   color: #5c8599;
   cursor: pointer;
@@ -43,7 +45,7 @@
 }
 
 .button-select button.active {
-  background: #edfff6;
+  background: var(--button-select-active);
   border: 1 solid #a1e9c5;
   color: #37c77f;
 }

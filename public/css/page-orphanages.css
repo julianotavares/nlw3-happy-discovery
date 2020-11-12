@@ -7,7 +7,7 @@
 
 aside {
   width: clamp(24rem, 25vw, 44rem);
-  background: linear-gradient(329.54deg, #15b6d6 0%, #15d6d6 100%);
+  background: linear-gradient(329.54deg, var(--pg-landing-fg) 0%, var(--pg-landing-bg) 100%);
   padding: clamp(3rem, 5vw, 8rem);
 
   display: flex;

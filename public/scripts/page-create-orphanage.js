@@ -14,8 +14,8 @@ let marker;
 
 // create and add marker
 map.on("click", (event) => {
-  const lat = event.latlng.lat;
-  const lng = event.latlng.lng;
+  const lat = event.lat.lat;
+  const lng = event.lng.lng;
 
   document.querySelector("[name=lat]").value = lat;
   document.querySelector("[name=lng]").value = lng;
@@ -87,4 +87,13 @@ function toggleSelect() {
   input.valeu = button.dataset.value
   //  verify if yes or no
 
+}
+
+  function validate(event) {
+    const verification = document.querySelector('.map-container input');
+  
+    if(verification.value == "") {
+      event.preventDefault();
+      alert("Selecione um local no mapa!");
+    }
 }

@@ -8,12 +8,22 @@
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/animations.css">
   <link rel="stylesheet" href="/css/page-landing.css">
+  <link rel="stylesheet" href="/css/theme.css">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"
+    />
 </head>
 
 <body>
   <div id="page-landing">
     <div id="container">
+
+       <div class="toggle">
+            <input id="switch" type="checkbox" name="theme">
+            <label for="switch">Toggle</label>
+        </div>
+      
+     
       <header>
         <img class="animate-up" id="Logo" src="/images/logo.svg" alt="Logo Happy">
         <div class="location animate-up">
@@ -35,5 +45,6 @@
     </div>
 
   </div>
+  <script src="/scripts/theme-switcher.js"></script>
 </body>
 </html>

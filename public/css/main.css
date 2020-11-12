@@ -4,11 +4,33 @@
   box-sizing: border-box;
 
 }
+html {
+  --bg: #ebf2f5;
+  --color-text: #ffffff;
+  --sidebar: #15c3d6;
+  --pg-landing-fg: #29b6d1;
+  --pg-landing-bg: #00c7c7;
+  --color-headings: #0077FF;
+  --map-container: #f5f8fa;
+  --form-bg: #ffffff;
+  --form-border: #212D40;
+  --form-text: #5c8599;
+  --input-bg: #f5f8fa;
+  --button-bg: #F5f8fa;
+  --button-form-bg: #a1e9c5;
+  --button-select: #f5f8fa;
+  --button-select-active: #edfff6;
+  --button-red: #
+;
+ 
+  
+}
 /*  */
 body {
   height: 100vh;
-  color: white;
-  background: #ebf2f5;
+  background: var(--bg);
+  color: var(--color-text);
+  
 }
 :root { 
   font-size: 62.5%;
